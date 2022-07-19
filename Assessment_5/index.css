@@ -1,0 +1,121 @@
+body {
+    background: black;
+    font-family: sans-serif;
+    text-shadow: 0 0 10px rgb(109, 107, 107);
+  }
+  .container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px tomato;
+  }
+  
+  .boxes ol {
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .box {
+    display: flex;
+    margin: 2em;
+  }
+  
+  .box1 {
+    width: 100px;
+    height: 100px;
+    margin: 2em;
+  }
+  
+  @keyframes transform1 {
+    100% {
+      transform: skewX(-25deg);
+    }
+  
+    50% {
+      transform: skewX(25deg);
+    }
+  
+    0% {
+      transform: skewX(-25deg);
+    }
+  }
+  
+  .box1 {
+    background-color: #5499c7;
+    animation: transform1 4s infinite;
+  }
+  
+  @keyframes transform2 {
+    100% {
+      transform: skewY(25deg);
+    }
+  
+    50% {
+      transform: skewY(-25deg);
+    }
+  
+    0% {
+      transform: skewY(25deg);
+    }
+  }
+  
+  .box2 {
+    background-color: #af7ac5;
+    animation: transform2 3.5s infinite;
+    width: 100px;
+    height: 100px;
+    margin: 2em;
+  }
+  
+  @keyframes transform3 {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .box3 {
+    background-color: #2980b9;
+    animation: transform3 3s infinite;
+    width: 100px;
+    height: 100px;
+    margin: 2em;
+  }
+  
+  @keyframes transform4 {
+    50% {
+      transform: scaleY(0.5);
+    }
+  }
+  
+  .box4 {
+    background-color: #2471a3;
+    animation: transform4 4s infinite;
+    width: 100px;
+    height: 100px;
+    margin: 2em;
+  }
+  
+  @keyframes transform4 {
+    50% {
+      transform: scaleX(0.5);
+    }
+  }
+  
+  .box4 {
+    background-color: #c0392b;
+    animation: transform4 4s infinite;
+
+  }
+  
+  @keyframes transform4 {
+    50% {
+      transform: rotate(110deg);
+    }
+  }
+  
+  .box4 {
+    background-color: #229954;
+    animation: transform4 4s infinite;
+  }
+  

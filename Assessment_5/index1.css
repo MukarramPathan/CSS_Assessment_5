@@ -1,0 +1,98 @@
+body {
+    background: black;
+    font-family: "sans-serif";
+    text-shadow: 0 0 10px rgb(109, 107, 107);
+  }
+  .container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: royalblue;
+    text-shadow: 2px 2px seashell;
+  }
+  
+  .boxes ol {
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .box {
+    background-color: rgb(39, 238, 155);
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1em;
+  }
+  
+  .box1 {
+    transition: width 2s;
+  }
+  
+  .box1:hover {
+    width: 400px;
+  }
+  
+  .box2 {
+    transition: width 2s, height 4s;
+  }
+  
+  .box2:hover {
+    width: 400px;
+    height: 350px;
+  }
+  
+  .box3 {
+    transition: width 2s;
+    transition-timing-function: linear;
+  }
+  
+  .box3:hover {
+    width: 450px;
+  }
+  
+  .box4 {
+    transition: width 2s;
+    transition-timing-function: ease;
+  }
+  
+  .box4:hover {
+    width: 450px;
+  }
+  
+  .box5 {
+    transition: width 2s;
+    transition-timing-function: ease-in;
+  }
+  
+  .box5:hover {
+    width: 400px;
+  }
+  
+  .box6 {
+    transition: width 2s;
+    transition-timing-function: ease-out;
+  }
+  
+  .box6:hover {
+    width: 35rem;
+  }
+  
+  .box7 {
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+  }
+  
+  .box7:hover {
+    width: 35rem;
+  }
+  
+  a {
+    color: rgb(156, 14, 62);
+    font-size: 2em;
+    font-weight: 500;
+  }
+  
+  a:visited {
+    color: rgb(58, 233, 166);
+  }
+  
